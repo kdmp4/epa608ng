@@ -13,12 +13,23 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.text())
         .then(csvText => {
             questionsData = parseCSV(csvText);
+            // NEW: Shuffle the questions array before rendering
+            shuffleArray(questionsData);
             renderQuiz();
         })
         .catch(error => {
             console.error('Error loading CSV:', error);
             quizContainer.innerHTML = '<p style="color:red;">Error loading questions. Please ensure questions.csv is in the same folder.</p>';
         });
+
+    // NEW: Fisher-Yates Shuffle Algorithm to randomize the array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            // Swap array[i] and array[j]
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
 
     // Simple CSV Parser (Handles quoted fields)
     function parseCSV(text) {
