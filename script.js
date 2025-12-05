@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const quizContainer = document.getElementById('quiz-container');
-    // NEW: Added shuffleBtn constant
-    const shuffleBtn = document.getElementById('shuffle-btn');
+    // FIX 2: Ensure the shuffleBtn constant is correctly retrieved
+    const shuffleBtn = document.getElementById('shuffle-btn'); 
     const submitBtn = document.getElementById('submit-btn');
     const retryBtn = document.getElementById('retry-btn');
     const scoreDisplay = document.getElementById('score-display');
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Event Listeners ---
     
-    // NEW: Handle Manual Shuffle
+    // FIX 2: Handle Manual Shuffle - this will clear answers, reshuffle, and redraw the quiz
     shuffleBtn.addEventListener('click', () => {
         // Clear previous answers/selections before shuffling
         document.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
