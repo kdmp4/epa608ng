@@ -1,0 +1,68 @@
+Question,Option_A,Option_B,Option_C,Option_D,Correct_Answer
+A residential system controls heating or cooling loads by using a ______.,Thermostat,Guide Vane,Chiller,Automation System,A
+The design of commercial HVAC systems differs from residential systems by ________.,Number of zones,Number of refrigerant compression stages,Both A and B,Neither A nor B,C
+The advantage of a zoning system is that ____________.,It reduces the cost of the unit dramatically,It can provide heating and cooling for two or more zones independently,It removes the need for a compressor,It allows the use of window units,B
+A commercial system is different from residential in terms of ____________.,Size,Complexity,Capacity,All of the above,D
+Which of the following is a type of commercial HVAC system?,Rooftop packaged units,Chillers,Both A and B,Window AC,C
+Which of the following is a type of residential HVAC system?,Chiller,Rooftop Packaged Unit,Window AC,Large capacity boiler,C
+Which parameters are responsible for heating and cooling load?,Number of occupants,Surrounding conditions,Both A and B,None of the above,C
+A multi-stage compressor reduces power consumption and improves efficiency. Is this statement True or False?,True,False,,,A
+A single-stage compressor compresses the refrigerant in more than one stage. Is this statement True or False?,True,False,,,B
+After the evaporator where does the refrigerant go to next?,Condenser,Metering Device,Compressor,Liquid Line,C
+Which of the following components is used in the basic refrigeration cycle?,Compressor,Metering Device,Evaporator,All of the above,D
+Which of the following characteristics of commercial systems differ from residential ones?,Energy consumption,Size,Power supplied for operation,All of the above,D
+Which secondary components are always found in commercial HVAC systems but only sometimes in residential?,Oil separator and Liquid line receiver tank,Thermostat and Fans,Ductwork and Vents,Compressor and Coils,A
+A filter drier is used in both residential and commercial refrigeration systems. Is this statement True or False?,True,False,,,A
+The refrigeration cycle used for commercial systems is different from that of residential systems. Is this statement True or False?,True,False,,,B
+Which components are generally NOT found in residential air conditioning systems?,Chilled water pumps,Compressor guide vanes,Both A and B,Standard Compressors,C
+Economizers and air handling units are used in commercial air conditioning systems only. Is this statement True or False?,True,False,,,A
+Which component is used to distribute heat in a Furnace system?,Pipes,Ductwork,Radiators,Pumps,B
+Which of the following components are used in a heating system?,Burner,Heat exchanger,Both A and B,Evaporator only,C
+Power burners reduce the efficiency of a gas furnace or boiler due to inaccurate burning. Is this statement True or False?,True,False,,,B
+What is the role of a damper in a ventilation system?,Heat the air,Control air flow,Cool the air,Filter the air,B
+Which ventilation component is not required for both commercial and residential systems?,Fans,Filters,Ductwork,Vents,C
+Separate ventilation fans are not used for ventilating enclosed car parks. Is this statement True or False?,True,False,,,B
+Exhaust fans are used to move outdoor air indoors. Is this statement True or False?,True,False,,,B
+Which of the following control components is not present in a residential system?,Thermostat,Building Automation Systems (BAS),Sensors,Switches,B
+Which of the following is NOT a control component of HVAC?,Thermostat,Sensor,Compressor,Building Automation System,C
+Low voltage thin wires are used for both residential and commercial systems. Is this statement True or False?,True,False,,,B
+A commercial system can be controlled automatically. Is this statement True or False?,True,False,,,A
+A commercial system requires only one thermostat to monitor the temperature of the entire commercial space. Is this statement True or False?,True,False,,,B
+Where do we use three-phase motors?,Commercial HVAC system,Residential HVAC system,Water heater,Window AC unit,A
+A three-phase power supply can transmit fluctuating power. Is this statement True or False?,True,False,,,B
+Commercial appliances require less power to operate than residential appliances. Is this statement True or False?,True,False,,,B
+Where do we find air handling units in a building?,On the rooftop only,In the basement only,In the mechanical room only,All the above,D
+Which of the following components absorbs sound in air handling units?,Sound attenuator,Filter,Blower,Housing,A
+Which of the following components prevents air leakage from an AHU?,Housing,Damper,Coil,Fan,A
+Which type of AHU is the best choice for smaller spaces?,Blow through AHU,Draw through AHU,Built-up AHU,Rooftop AHU,B
+Dampers regulate the amount of air entering and leaving an AHU. Is this statement True or False?,True,False,,,A
+"In blow-through AHUs, blowers are installed after cooling or heating coils. Is this statement True or False?",True,False,,,B
+Building Management Systems (BMS) are also known as ________.,Building Automation System,Central Control Unit,Power Distribution Box,HVAC Controller,A
+Which of the following sensors in an AHU detect the amount of carbon dioxide in air?,Pressure sensor,Temperature sensor,CO2 sensor,Humidity sensor,C
+Differential pressure switches are installed across the air filter and blower in the AHU. Is this statement True or False?,True,False,,,A
+Which of the following components detects the temperature of the air in the makeup air unit?,Pressure sensor,Temperature sensor,CO2 sensor,Damper,B
+Which of the following is not a component of makeup air units?,Heating coil,Blower,Filter,Cooling tower,D
+Makeup air units recirculate indoor air. Is this statement True or False?,True,False,,,B
+The makeup air unit is usually located on the top of the building. Is this statement True or False?,True,False,,,A
+"In the FCU, the _________ regulates the indoor air temperature.",fan,coil,thermostat,filter,C
+Which of the following components collects condensate water droplets in an FCU?,Drain pan,Coil,Filter,Fan,A
+Which of the following type of FCU can cool and heat the air at the same time?,2-pipe FCU,3-pipe FCU,4-pipe FCU,No-pipe FCU,C
+Which of the following type of FCU occupies the space in the room?,Ceiling concealed,Floor mounted,Cassette,Ducted,B
+FCUs can also be controlled by BMS. Is this statement True or False?,True,False,,,A
+The fan coil unit supplies fresh outdoor air. Is this statement True or False?,True,False,,,B
+Which of the following air ducts brings in fresh outdoor air to the AHUs?,Supply air duct,Return air duct,Fresh air duct,Exhaust air duct,C
+Which of the following insulating material is both fireproof and moisture resistant?,Polyethylene,Glass fiber,Fiberglass batts,Foam,B
+Which of the following is a more efficient duct shape in circulating air?,Rectangular,Square,Round,Oval,C
+Which of the following is also called a textile duct?,Flexible duct,Fabric duct,Spiral duct,Rigid duct,B
+Which of the following is the most common material used to make ducts?,Aluminum,Galvanized steel,Plastic,Copper,B
+_______ allows airflow in only one direction and prevents reverse airflow.,Pressure relief damper,Backdraft damper,Fire damper,Volume damper,B
+"In CAV systems, ______ changes to meet the heating or cooling load of the building.",air volume,air velocity,air temperature,damper position,C
+VAV box is an assembly of a metal box with _______ and _________.,"coil, fan","filter, coil","damper, control systems","thermostat, grille",C
+VAV stands for _____________.,Volume Air Velocity,Variable Air Velocity,Volume Air Volume,Variable Air Volume,D
+Which of the following are the control systems of the basic VAV box?,Thermostat,Damper actuator,Both A and B,Neither A nor B,C
+Which of the following grille has T shape blades?,Linear grille,Bar grille,Egg crate grille,Spot diffuser,B
+Louvre bladed diffusers are capable of circulating air in a single direction. Is this statement True or False?,True,False,,,B
+Arrows in the duct drawing represent the direction of _______.,airflow,pipe size,control signal,temperature,A
+The size of the round components in the duct drawing is represented with the ____ symbol.,R,Dia,S,⌀,D
+The ________ reducer decreases the ductwork out of line to the center.,Concentric reducer,Eccentric reducer,Straight reducer,Square to round adapter,B
+Which of the following things are specified in the duct drawing?,Duct size,Airflow rate,Material,All the above,D
