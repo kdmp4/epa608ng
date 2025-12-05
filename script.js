@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const quizContainer = document.getElementById('quiz-container');
+    // NEW: Added shuffleBtn constant
+    const shuffleBtn = document.getElementById('shuffle-btn');
     const submitBtn = document.getElementById('submit-btn');
     const retryBtn = document.getElementById('retry-btn');
     const scoreDisplay = document.getElementById('score-display');
@@ -8,21 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let questionsData = [];
 
-    // 1. Fetch and Parse CSV
-    fetch('questions.csv')
-        .then(response => response.text())
-        .then(csvText => {
-            questionsData = parseCSV(csvText);
-            // NEW: Shuffle the questions array before rendering
-            shuffleArray(questionsData);
-            renderQuiz();
-        })
-        .catch(error => {
-            console.error('Error loading CSV:', error);
-            quizContainer.innerHTML = '<p style="color:red;">Error loading questions. Please ensure questions.csv is in the same folder.</p>';
-        });
+    // --- Core Functions ---
 
-    // NEW: Fisher-Yates Shuffle Algorithm to randomize the array
+    // Fisher-Yates Shuffle Algorithm to randomize the array
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -105,6 +95,41 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // 1. Fetch and Load Data
+    fetch('questions.csv')
+        .then(response => response.text())
+        .then(csvText => {
+            questionsData = parseCSV(csvText);
+            // Shuffle on initial load
+            shuffleArray(questionsData);
+            renderQuiz();
+        })
+        .catch(error => {
+            console.error('Error loading CSV:', error);
+            quizContainer.innerHTML = '<p style="color:red;">Error loading questions. Please ensure questions.csv is in the same folder.</p>';
+        });
+
+
+    // --- Event Listeners ---
+    
+    // NEW: Handle Manual Shuffle
+    shuffleBtn.addEventListener('click', () => {
+        // Clear previous answers/selections before shuffling
+        document.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
+        document.querySelectorAll('label').forEach(el => {
+            el.classList.remove('correct-answer-highlight', 'wrong-answer-highlight');
+        });
+        document.querySelectorAll('.feedback').forEach(el => el.innerHTML = '');
+        scoreDisplay.classList.add('hidden');
+        
+        // Shuffle and re-render the quiz
+        shuffleArray(questionsData);
+        renderQuiz();
+        
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
     // 3. Handle Submission
     submitBtn.addEventListener('click', () => {
         let score = 0;
