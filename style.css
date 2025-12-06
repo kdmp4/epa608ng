@@ -127,6 +127,36 @@ button:hover {
     border-top: 2px solid #eee;
 }
 
+/* Review Section Styles */
+#review-container {
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+.review-card {
+    background-color: #fff5f5; /* Light red background */
+    border: 1px solid var(--wrong-border);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.review-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review-your-answer {
+    color: #721c24;
+    margin-bottom: 5px;
+}
+
+.review-correct-answer {
+    color: #155724;
+    font-weight: bold;
+}
+
 .hidden {
     display: none;
 }
